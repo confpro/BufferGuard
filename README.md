@@ -3,6 +3,13 @@
 # dataset
 Because the training set is too large, we have divided it into three parts, and if you need to use it, please splice it together.
 
+# usage of this package
+First, You need to go to hugging face to download the original Deepseek-Coder.
+In RQ1, The train.py can run the results of BufferGuard.
+In RQ2, the column names in dataset.py need to be changed or deleted, center loss can be annotated during training.
+In RQ3, the column names in dataset.py need to be changed for each cate.
+In RQ4, the model in train.py can be replaced.
+
 # motivation example
 <img width="933" height="473" alt="image" src="https://github.com/user-attachments/assets/e4f68d91-b462-4523-abdc-4b6f6b30ee60" />
 
