@@ -1,5 +1,8 @@
 # Intention-aware Buffer Overflow Vulnerability Detection using LLM-aided Code Information Flow Analysis
 
+# dataset
+Because the training set is too large, we have divided it into three parts, and if you need to use it, please splice it together.
+
 # motivation example
 <img width="933" height="473" alt="image" src="https://github.com/user-attachments/assets/e4f68d91-b462-4523-abdc-4b6f6b30ee60" />
 
