@@ -1,9 +1,9 @@
 # Intention-aware Buffer Overflow Vulnerability Detection using LLM-aided Code Information Flow Analysis
 
-# dataset
+# Dataset
 Because the training set is too large, we have divided it into three parts, and if you need to use it, please splice it together.
 
-# usage of this package
+# Usage of this package
 First, You need to go to hugging face to download the original Deepseek-Coder or other models.
 In the process folder, csv_AST.py can get IIG, and gpt_process_data.py can get CIF.
 In RQ1 folder, the train.py can run the results of BufferGuard.
@@ -11,7 +11,7 @@ In RQ2 folder, the column names in dataset.py need to be changed or deleted, cen
 In RQ3 folder, the column names in dataset.py need to be changed for each cate.
 In RQ4 folder, the model in train.py can be replaced.
 
-# motivation example
+# Motivation example
 <img width="933" height="473" alt="image" src="https://github.com/user-attachments/assets/e4f68d91-b462-4523-abdc-4b6f6b30ee60" />
 
 # Overview of BufferGuard
